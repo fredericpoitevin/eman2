@@ -4,8 +4,6 @@ set -xe
 
 MYDIR="$(cd "$(dirname "$0")"; pwd -P)"
 
-bash "${MYDIR}/../tests/future_import_tests.sh"
-
 source ci_support/setup_conda.sh
 
 # Following Wiki instructions at

@@ -15,7 +15,7 @@ if [ ! -z ${TRAVIS} ];then
 fi
 
 if [ ! -z ${CIRCLECI} ];then
-    source ${HOME}/miniconda2/bin/activate root
+    source ${HOME}/miniconda3/bin/activate root
 fi
 
 python -m compileall -q .
